@@ -29,7 +29,6 @@ const handleReset = () => {
   outputContainer.innerHTML = currentValue;
 };
 
-// Adding event listen
 const outputContainer = document.querySelector("#output_num");
 document.querySelector("#add").addEventListener("click", handleIncrement);
 document.querySelector("#subtract").addEventListener("click", handleDecrement);
